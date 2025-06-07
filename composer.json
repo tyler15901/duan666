@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/",
+            "Libraries\\": "libraries/",
+            "Services\\": "services/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "smalot/pdfparser": "^1.0"
+    }
+}
